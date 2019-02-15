@@ -19,7 +19,7 @@ try {
     var uri = `mongodb://${process.env.user}:${process.env.password}@ds127995.mlab.com:27995/listinghippo`;
       mongoose.connect(uri,{ useNewUrlParser: true })    
 } catch (error) {
-    
+    console.log('error on login')
 }
 
 let port = 5000 || process.env.PORT

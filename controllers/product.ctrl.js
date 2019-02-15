@@ -113,14 +113,4 @@ deleteProduct:function(req,res) {
 
 
 
-  // getAll:(req,res,next) =>{
-    // const getall = Product.find({},function(err,prod){
-    //     res.send(prod)
-    // })
-    
-    // },
-    // getbyId:(req,res,next) =>{
-    //     const getbyid = Product.findById("5c5ffebdc642dd17649041a9",function(err,prod){
-    //         res.send(prod.ClientCode)
-    //     })
-    // } 
+  
